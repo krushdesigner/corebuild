@@ -1,0 +1,37 @@
+.contact {
+    background-color: #FFD957;
+
+    .section-header-title {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    h6 {
+        font-weight: 300;
+    }
+    .contact-form {
+        width: calc(100% - 30px);
+    }
+    .form-control {
+        border: 0 none;
+        border-radius: 3px;
+        line-height: 1.8;
+        font-family: 'Roboto Condensed', sans-serif;
+
+        &::placeholder {
+            color: #6B6767;
+            opacity: 1;
+            font-weight: 300;
+          }
+    }
+
+    .btn-dark {
+        border-radius: 3px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 0.6rem;
+    }
+  
+
+}
